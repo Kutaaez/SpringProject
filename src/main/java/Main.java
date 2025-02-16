@@ -13,6 +13,7 @@ public class Main {
         operatingSystem.setType("IOS");
         System.out.println(operatingSystem.getType());
         smartphone.setOperatingSystem(operatingSystem);
+        smartphone.setBrand("Samsung");
         System.out.println(smartphone);
     }
 }

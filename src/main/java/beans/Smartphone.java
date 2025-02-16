@@ -8,17 +8,14 @@ public class Smartphone {
     private String brand;
     private OperatingSystem operatingSystem;
 
-//    private final OperatingSystem operatingSystem;
-//    @Autowired
-//    private  OperatingSystem operatingSystem;
-
-
-    @Autowired
-//    public Smartphone(OperatingSystem operatingSystem){
-//        this.operatingSystem = operatingSystem;
-//    }
-
     public Smartphone() {
+    }
+
+    //    private final OperatingSystem operatingSystem;
+//    @Autowired
+    @Autowired
+    public Smartphone(OperatingSystem operatingSystem){
+        this.operatingSystem = operatingSystem;
     }
 
     public OperatingSystem getOperatingSystem() {

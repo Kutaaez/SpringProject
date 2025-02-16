@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class OperatingSystem {
-    private String type = "IOS";
+    private String type;
 
 
 
